@@ -244,6 +244,7 @@ header {
 }
 
 
+
 header h1 {
 	margin: 0;
 	float: left;
@@ -456,7 +457,6 @@ a.button-slider {
 img {
 	max-width: 100%;
 	height: auto;
-	/*resize: none;*/
 }
 
 #body {
