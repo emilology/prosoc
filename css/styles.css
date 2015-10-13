@@ -1,5 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700);
 
+
+
+/*
+this is the part for styling the forms
+*/
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browsers */
+    resize: vertical;
+}
+
+/*
+this is the part from the template
+*/
+
 body {
 	background: #fff;
 	margin:0;
@@ -64,8 +86,8 @@ p {
 }
 
 a {
-	color: #DB515B;
-	border-bottom: 1px solid #DB515B;
+	color: #1947A3;
+	border-bottom: 1px solid #1947A3;
 	text-decoration: none;
 }
 
@@ -78,24 +100,23 @@ a:focus {
 	outline: none;
 }
 
-
 a.button {
 
-    background: linear-gradient(#E0676F, #D73C47);
-    background-color: #DB515B;
+    background: linear-gradient(#325BAD, #003399);
+    background-color: #003399;
     color: #FFFFFF;
     display: inline-block;
     font-weight: bold;
     padding: 10px 15px;
-    border: 1px solid #CF2A35;
-    text-shadow: 1px 1px 0 #BA2630;
+    border: 1px solid #003399;
+    text-shadow: 1px 1px 0 #003399;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 a.button:hover {
-	background:#D73C47;
+	background:#003399;
 }
 
 a.button-reversed {
@@ -166,7 +187,7 @@ form.searchform p {
 
 
 span.required {
-	color: #ff0000;
+	color: #003399;
 }
 
 h1 {
@@ -194,7 +215,7 @@ h3 {
 }
 
 h4 {
-    color: #D73F4A;
+    color: #003399;
     font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 600;
@@ -244,6 +265,7 @@ header {
 }
 
 
+
 header h1 {
 	margin: 0;
 	float: left;
@@ -262,7 +284,7 @@ header h1 a, header h1 a:hover {
 
 header h1 a strong {
 	font-weight: bold;
-	color: #DB515B;
+	color: #325BAD;
 }
 
 nav {
@@ -313,14 +335,14 @@ nav ul li a:hover {
 }
 
 nav ul li.selected a, nav ul li.selected a:hover {
-	background: linear-gradient(#E0676F, #D73C47);
-    	background-color: #DB515B;
+	background: linear-gradient(#325BAD, #003399);
+    	background-color: #003399;
 	color: #fff;
 	border-radius: 5px;
 }
 
 nav ul li.selected a:hover {
-	background-color: #D73C47 !important;
+	background-color: #002E8A !important;
 	background-image: none !important;
 }
 
@@ -349,7 +371,7 @@ nav ul li a.sf-with-ul:hover, nav ul li.sfHover a {
 }
 
 nav ul li.sf-with-ul.selected ul a, nav ul li.selected ul, nav ul li.selected.sfHover a  {
-	background: #D73C47;
+	background: #002E8A;
 	color: #eee;
 }
 
@@ -456,7 +478,6 @@ a.button-slider {
 img {
 	max-width: 100%;
 	height: auto;
-	/*resize: none;*/
 }
 
 #body {

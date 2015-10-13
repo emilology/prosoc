@@ -1,13 +1,11 @@
-
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta tag "ProSocial Marketing Wellington"/>
+<meta tag "ProSocial Marketing Wellington Academy for Students"/>
 <meta name="google" content="notranslate" />
 <link rel="stylesheet" href="css/reset.css" type="text/css" />
 <link rel="stylesheet" href="css/styles.css" type="text/css" />
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,7 +14,6 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
 <script type="text/javascript" src="js/superfish.js"></script>
-
 <script type="text/javascript" src="js/custom.js"></script>
 
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
@@ -34,20 +31,19 @@
           		<li>
 
 					<a href="services.html">Our Services</a>
-
+<!--
   					<ul>
           		<li><a href="digital-marketing.html">Digital Marketing</a></li>
   						<li><a href="web-development.html">Web Development</a></li>
         	    <li><a href="one-column.html">one column tester</a></li>
               <li><a href="text.html">text . html tester</a></li>
               <li><a href="three-column.html">three column tester</a></li>
-            </ul>
+            </ul> -->
 
         	</li>
 				<li>
 
 					<a href="academy.html">Prosocial Academy</a>
-
 				<li><a href="get-in-touch.html">Get in Touch</a></li>
        			</ul>
 
@@ -59,27 +55,60 @@
 </header>
 
 <body>
-  <div id="body" class="width">
 
-	<section id="content" class="two-column with-right-sidebar">
+  <div id="intro">
+	<div class="width">
+	<div class="intro-content">
 
-    <article>
+    <!-- <h2> Digital Marketing for Charities</h2>
+    <p>digital marketing · social media · web development · SEO</p> -->
 
-		<h2>Introduction to ProSocial</h2>
-		<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></div>
-          <p>This template has been tested in:</p>
+			<p><a href="academy.html" class="button button-slider">Our Services</a>
+							<a href="#" class="button button-reversed button-slider">Career Opportunities</a></p>
+
+	</div>
+
+  </div>
 
 
-          <ul class="styledlist">
-              <li>Firefox</li>
-              <li>IE</li>
-		<li>Safari</li>
-              <li>Chrome</li>
-          </ul>
+<!--
+			<p><a href="#" class="button button-slider">Our Training</a>
+							<a href="#" class="button button-reversed button-slider">Our Services</a></p> -->
+
+
+            	</div>
+
+            </div>
+
+	</div>
+    <div id="body" class="width">
+
+
+
+		<section id="content" class="two-column with-right-sidebar">
+
+	    <article>
+<br></br>
+
+			<h2>Introduction to ProSocial</h2>
+			<div class="article-info">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></div>
+            <p>This template has been tested in:</p>
+
+
+            <ul class="styledlist">
+                <li>Firefox</li>
+                <li>IE</li>
+ 		<li>Safari</li>
+                <li>Chrome</li>
+            </ul>
 
 
 		<a href="services" class="button">Read more</a>
 		<a href="get-in-touch" class="button button-reversed">Get in Touch</a>
+
+
+		<a href="#" class="button">Read more</a>
+		<a href="#" class="button button-reversed">Comments</a>
 
 		</article>
 		<article class="expanded">
@@ -92,49 +121,32 @@
 
 		</article>
         </section>
-		<section href="#form">
-				<h3>Contact Form</h3>
 
-				<fieldset>
-						<legend></legend>
-						<form action="#" method="get">
-								<p><label for="name">Name:</label>
-								<input name="name" id="name" value="" type="text" /></p>
-								<p><label for="type">Type of enquiry:</label>
-								<input name="type of enquiry" id="type" value="" type="text" /></p>
-								<p>Students, please state which year and course you are undertaking currently</p>
-								<p><label for="organisation">Organisation:</label>
-								<input name="organisation" id="organisation" value="" type="text" /></p>
-								<p><label for="email">Email:</label>
-								<input name="email" id="email" value="" type="text" /></p>
+				<form action="services.php" method="post">
+				Name: <input type="text" name="name"><br>
+				E-mail: <input type="text" name="email"><br>
+				<input type="submit">
+				</form>
 
-								<p><label for="message">Your Query:</label>
-								<textarea cols="37" rows="11" name="message" id="message"></textarea></p>
-								<p><input name="send" style="margin-left: 150px;" class="formbutton" value="Send" type="submit" /></p>
-						</form>
-				</fieldset>
-		</section>
+
+        <aside class="sidebar big-sidebar right-sidebar">
+
     <footer>
         <div class="footer-content width">
             <ul>
-            	<li><h4>Proin accumsan</h4></li>
-                <li><a href="#">Rutrum nulla a ultrices</a></li>
-                <li><a href="#">Blandit elementum</a></li>
-                <li><a href="#">Proin placerat accumsan</a></li>
-
+            	<li><h4>Home</h4></li>
+                <li><a href="index.html#about-us">About Prosocial</a></li>
             </ul>
 
             <ul>
-            	<li><h4>Condimentum</h4></li>
-                <li><a href="#">Curabitur sit amet tellus</a></li>
-                <li><a href="#">Morbi hendrerit libero </a></li>
+            	<li><h4>Services</h4></li>
+                <li><a href="services.html">All the things</a></li>
 
             </ul>
 
  	    <ul>
-                <li><h4>Suspendisse</h4></li>
-                <li><a href="#">Morbi hendrerit libero </a></li>
-                <li><a href="#">Proin placerat accumsan</a></li>
+                <li><h4>Careers</h4></li>
+                <li><a href="academy.html">Academy</a></li>
 
             </ul>
 
@@ -144,13 +156,9 @@
 
   <div class="social-icons">
 
-    <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+    <a href="www.twitter.com/prosocialnz"><i class="fa fa-twitter fa-2x"></i></a>
 
-    <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-
-    <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
-
-    <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+    <a href="www.prosocial.nz/"><i class="fa fa-website fa-2x"></i></a>
 
   </div>
 </div>
