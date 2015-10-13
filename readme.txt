@@ -2,17 +2,40 @@ This is a site for Prosocial Digital Marketing Agency, Wellington
 Made by Emily Mabin Sutton
 
 TO DO
+9. All the left alignments do not have enough buffer between them and the edge of the screen. work out why
+8. Make sure all forms SEND somewhere
+7. Change favicon to PS or something better
+6. Work out how to make 'our services' bigger than 'prosocial academy'
+5. Make all the links between pages work and hide all the non-useful domains
+4. Make 'get in touch form' - take off block on right hand side
+- make it send a reply saying "thanks for your message, we endeavour 2 days"
+- make it actually send us an email
+-make all fields compulsory
+-
+- make the option for 'type of query' a drop down / tick box with 'business, academy, or other'
+3. Make nav icons shade blue when on that specific page
+
+PROGRESS LINE  - DONE BELOW THIS LINE
+
+2. Change colour theme to blue, grey, black, white
+bright red #ff0000
+darkest red #D73C47
+
+lightest red #E0676F
+background colour #DB515B
+
+darkest blue #002E8A
+normal blue #003399
+light blue #325BAD
+
+other blue #1947A3 (lighter than 325bad)
+
 1. Map out site pages
 
 HOME
-PROSOCIAL
+FOR CLIENTS
+PROSOCIAL ACADEMY
 
-
-
-
-
-2. Change colour theme to blue, grey, black, white
-3.
 
 Dev logs:
 

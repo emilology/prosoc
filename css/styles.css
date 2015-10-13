@@ -109,7 +109,7 @@ a.button {
     font-weight: bold;
     padding: 10px 15px;
     border: 1px solid #003399;
-    text-shadow: 1px 1px 0 #002E8A;
+    text-shadow: 1px 1px 0 #003399;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
@@ -187,7 +187,7 @@ form.searchform p {
 
 
 span.required {
-	color: #ff0000;
+	color: #003399;
 }
 
 h1 {
@@ -335,14 +335,14 @@ nav ul li a:hover {
 }
 
 nav ul li.selected a, nav ul li.selected a:hover {
-	background: linear-gradient(#E0676F, #D73C47);
-    	background-color: #DB515B;
+	background: linear-gradient(#325BAD, #003399);
+    	background-color: #003399;
 	color: #fff;
 	border-radius: 5px;
 }
 
 nav ul li.selected a:hover {
-	background-color: #D73C47 !important;
+	background-color: #002E8A !important;
 	background-image: none !important;
 }
 
@@ -371,7 +371,7 @@ nav ul li a.sf-with-ul:hover, nav ul li.sfHover a {
 }
 
 nav ul li.sf-with-ul.selected ul a, nav ul li.selected ul, nav ul li.selected.sfHover a  {
-	background: #D73C47;
+	background: #002E8A;
 	color: #eee;
 }
 
