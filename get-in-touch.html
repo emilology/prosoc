@@ -68,22 +68,23 @@
 				<p>You are welcome to get in touch with us about digital marketing, our academy & training opportunities, or other business.</p><br></br>
             <!-- <p>&nbsp;</p> -->
             <h3>Contact Form</h3>
-
             <fieldset>
                 <legend></legend>
-                <form action="get-in-touch.html" method="post">
+								<form action="//formspree.io/hello@prosocial.nz"  method="POST">
+										<span class="code"><strong>method="POST"</strong></span>
                     <p><label for="name">Name:</label>
-                    <input name="sender" id="sender" value="" type="text" /></p>
-										<p><label for="type">Type of enquiry:</label>
-										<input name="enquiry" id="type" value="" type="text" /></p>
-										<p>Students, please state which year and course you are undertaking currently</p>
+                    <input name="name" id="sender" value="" type="text" /></p>
+										<!-- <p><label for="type">Type of enquiry:</label>
+										<input name="enquiry" id="type" value="" type="text" /></p> -->
+										<!-- <p>Students, please state which year and course you are undertaking currently</p> -->
+                    <p><label for="email">Email Address:</label>
+                    <input name="_replyto" id="Email" value="" type="email" /></p>
 										<p><label for="organisation">Organisation:</label>
 										<input name="organisation" id="organisation" value="" type="text" /></p>
-                    <p><label for="email">Email:</label>
-                    <input name="senderEmail" id="senderEmail" value="" type="text" /></p>
                     <p><label for="message">Your Query:</label>
                     <textarea cols="37" rows="11" name="message" id="message"></textarea></p>
-                    <p><input name="submit" style="margin-left: 150px;" class="formbutton" value="Send" type="submit" /></p>
+										<input class="gotcha" type="text" name="_gotcha" style="display:none" />
+                    <p><input name="submit" style="margin-left: 150px;" class="formbutton" type="submit" value="Send" /></p>
                 </form>
             </fieldset>
 	</article>

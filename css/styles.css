@@ -176,6 +176,11 @@ form input.formbutton {
 	overflow: visible;
 }
 
+gotcha {
+  text-indent: -9999px;
+}
+
+
 form.searchform input {
   font-size: 0.9em;
     padding: 6px;
