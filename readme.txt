@@ -11,7 +11,6 @@ TO DO
 - make it send a reply saying "thanks for your message, we endeavour 2 days"
 - make it actually send us an email
 -make all fields compulsory
--
 - make the option for 'type of query' a drop down / tick box with 'business, academy, or other'
 3. Make nav icons shade blue when on that specific page
 
